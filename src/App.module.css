@@ -1,8 +1,19 @@
 .blocks {
-  text-align: center;
+  margin-left: 20px;
 }
 .title {
   text-align: center;
   color: tomato;
   font-weight: bold;
+}
+.button {
+  background-color: tomato;
+  margin-right: 5px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+  border: 2px solid grey;
+}
+.button:hover {
+  transform: scale(1.04);
 }
